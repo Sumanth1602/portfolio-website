@@ -203,15 +203,13 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/path-to-your-hero-image.jpg');
-  background-size: cover;
-  background-position: center;
+  background: var(--background-color);
   padding-top: 80px; /* Account for fixed header */
   transition: background 0.3s ease;
 }
 
 .dark-mode .hero {
-  background: linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.9)), url('/path-to-your-hero-image.jpg');
+  background: var(--background-color);
 }
 
 .hero-content {
